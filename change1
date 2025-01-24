@@ -1,3 +1,0 @@
-top5 = df_1.sort_values(by = 'score', ascending = False).head()
-print('Top 5 movies:')
-top5[['title', 'genres', 'tag', 'score']]
